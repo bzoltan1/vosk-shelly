@@ -35,7 +35,7 @@ try:
                 text = json.loads(rec.Result())['text']
                 if text:
                     print(text)
-                if "jack" in text:
+                if "shelley" in text:
                     for key in lamps:
                         if key in text or "everything" in text:
                             for device in lamps[key]:
